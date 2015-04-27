@@ -165,7 +165,7 @@ public class GameScreen implements Screen {
 			pontos = 0;
 			biblias = 0;
 			criarItens();
-			lsGame.setScreen(new GameOver(lsGame));
+			lsGame.setScreen(lsGame.getGameOver());
 		}
 		// DEBUG
 		drawDebug(laSalinho.bounds,Color.GREEN);
@@ -187,7 +187,8 @@ public class GameScreen implements Screen {
 
 	@Override
 	public void hide() {
-
+		// Quando a fase for terminada, e necessario dar dispose() em alguns recursos, como texturas e som.
+		// Chame-os aqui
 	}
 
 	@Override
@@ -202,10 +203,7 @@ public class GameScreen implements Screen {
 
 	@Override
 	public void dispose() {
-		
-		//for(Actor actor : lsGame.getStage().getActors()){
-		//	actor.remove();
-		//}
+		// Ver hide()
 	}
 	/**
 	 * 

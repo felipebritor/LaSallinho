@@ -15,3 +15,6 @@ desktop/bin/Mapa.tmx
 desktop/bin/itens/star_silver.png
 desktop/bin/tiles_spritesheet.png
 desktop/bin/Mapa.tmx
+/.nb-gradle/private/
+/core/build/
+/desktop/build/
