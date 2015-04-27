@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="32" tilewidth="70" tileheight="70" backgroundcolor="#2d2d2d">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
+  <image source="tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <layer name="AcabamentoBack" width="200" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA1wBkAAAB
+  </data>
+ </layer>
+ <layer name="Mapa" width="200" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztmlFugzAMQLnOPnaAHWAf7Br92UU4QD932xV10awU0wRix1Hfk6yiAiWlfokTOk0AAAAAAAAAAAAAAAAA/3ze4uMW7zv7tP0AADAmyy3m3o0ITsn4yNhYhqwnRrhv1+nuSAlLxbEAEanJ93R86fgxVxxbylLZBkuitAPOcf2L2n1brPlQ6lPNsTXXX6OmzVbU9i2gk/q9o+eeqVX2rv3tEC1JORmh347i6cik3/JMX5py4qhjss/N2/DjEC2J4IdsA3484t2XWvbno/mhee6JbEOEcSwa3rlima+j+rG+5mt/tXF0rTC1obWn3rWqFfjR149edY2slS3GMe972ZI3sY0f/fyQOepNunbuSStG9uNLBH7088Oj7tc+P5+Xtx7HWt/Ltf7UnuHXvP+M1YmLCPzo64f1/FzzI/ciuh8e5G7gR18/ZG5aofk3T4/zj971lcfcXXuGvOUGfvT1Q84BrNDyPuL8w+o+S7bGSc0N/OjrR6tnTkfOs15zjepHXm/uuYEfff1odf2zuWjx/aL6IdclnrmBH/gR1Q/r/9GVuIEf+BHVD8uQuY8f+IEfxx3BD/x4JT80LzRP8AM/XsWPy8Y29RV+4Me2JyU11i/O4PLx
+  </data>
+ </layer>
+ <layer name="AcabamentoFrente" width="200" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt2dEJwCAMQEEH6l7df4NOEJAoksY78FOphYegYwAAAAAAAAAAAAAAANDVmxhwiycx4BYV+nA2UVWFPpxNVKUPiOkDYvpgRfe7TX2wovvd5o19ZN58dr4FZdeZnXNyb/ro10dmzzv/RXad2Tkn96YPfehj/Zv+Sh/60EdMH/rQR0wf+tBHTB/60EdMH/ro3scHzGiATw==
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztl1EOgyAQBT1H73/QfmoM4gJvFxZnEtJWywOFQTwOAAAAAAAAAAAAAAAAgJPfpdTOlc4DAEBOWNffsT4f4Z37fmL1+9bSxwzXA1CjdQ7P9mOldWSVfsAYtXHM6Mf1cyb4oWPkXo6umRY/PIsS/NgLxVy5zomejFofvMd3Rz8yvS/OoHf9HPWjp+23PuBHfx/u32EMhR/qPmT2Y9bez8uP6L3qauCHLm/GXFHuCZ7yR85nBz90ebP8sBxT5nu1pUbxjMMPXZ5nv5/GOZsftetoOd7bTk9OZD1LFn6U29jBjwiU70X4ocvDj/OY97u7+nlTayeyniULP8ptZPJD3Y9SG6V54zW2UfUsWZn9sJannNZ6+FH+rWwnsp4lK6sfo/8fmYstOS2s7of3Xg4/4vO+5IdniQA/4vO+4scO4Ed8Hn7kAT/i8/AjD/gRn4cfecCP+Dz8iOcPbxAsfQ==
+  </data>
+ </layer>
+ <layer name="Itens" width="200" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt2+0OwiAMQNHB+z+0MfGHYVAYDGjLPcniovhBoaNuel0AAAAAAA/CbwNwR34Avkn5Te4jFZL9eOXnSUi22mtpRX5gFwvzi/w4k4bvBrvfv0Za/2prI+61xlcUHrNq1jywHheJ575ZZO1YJn13WW1G7DT0a1SsN1lGWn/+23iI+wk8jFNPH0bm6OqatSXnetqizkP8rPaBdeQdM+PI+ABlvbUJkBMGbzVJr43GzH2l5wG7aa1PNX4mQAvyA6OenAPUuk6USHXXk/P9vf22FKvTtFyLSmt4b+O5sz/eYunN6eOzIuel9Qa6MUZ7EHcbcrVT6zHVe901C3EC8jT99hB4qvT/iHS/tR0AAAAAAADgzQcuKACg
+  </data>
+ </layer>
+ <layer name="Teleporte" width="200" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1zENAAAMw7CyGn9me0ah2mNLAZEEAAAAAAAAAAAAAAD+zQUAANDiOwAAAAAAAAAAAICWBbCQAN0=
+  </data>
+ </layer>
+ <layer name="Inimigos" width="200" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt2qERADAIA0DW6P6LMkCL4DC99l9FEBtFBAAAAAAAAAAAAOxWkae3ANzjtNl2HAAAAAAAAAD4XednrtsFAAAAAOBdCdJPAOI=
+  </data>
+ </layer>
+</map>
